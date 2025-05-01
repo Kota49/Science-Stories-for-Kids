@@ -1,0 +1,16 @@
+{
+	"name" : "jiwebtech/translator",
+	"description" : "translator ",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Shiv Charan Panjeta",
+			"email" : "shiv@jiwebtech.com"
+		}
+	],
+	"require" : {
+		"php" : ">=8.0.0",
+		"yiisoft/yii2" : "*",
+		"lajax/yii2-language-picker" : "dev-master",
+		"devgroup/yii2-jsoneditor" : "*"
+	}
+}

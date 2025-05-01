@@ -1,0 +1,14 @@
+{
+	"name" : "jiwebtech/book",
+	"description" : "book",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Shiv Charan Panjeta",
+			"email" : "shiv@jiwebtech.com"
+		}
+	],
+	"require" : {
+		"php" : ">=8.0.0",
+		"yiisoft/yii2" : "*"
+	}
+}

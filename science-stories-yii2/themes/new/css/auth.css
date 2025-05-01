@@ -1,0 +1,109 @@
+.login-wrap {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	background-image: url('../img//auth-bg.jpg');
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #666;
+	background-blend-mode: multiply;
+	width: 100%;
+	background-size: cover;
+}
+
+.auth-card {
+	background: var(--white);
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+	margin: 0 auto;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 570px;
+	z-index: 9;
+	position: relative;
+	padding: 40px;
+	border: 1px solid #80818430;
+}
+
+form .form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+label.form-label {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+form .form-group input[type="text"],
+form .form-group input[type="email"],
+form .form-group input[type="password"],
+form .form-group input[type="tel"],
+form .form-group input[type="url"],
+form .form-group input[type="file"],
+form .form-group input[type="number"],
+form .form-group textarea,
+form .form-group select {
+	background: #fff;
+	border: 1px solid rgba(0, 167, 172, 0.12);
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+	font-weight: 400;
+	font-size: 0.875rem;
+	color: #0D2857;
+	padding: 14px 20px;
+	line-height: 1;
+	transition: 0.35s;
+	height: 50px;
+}
+
+.password-addon {
+	right: 15px;
+	top: 13px;
+}
+
+input[type="password"] {
+	padding-right: 50px !important;
+}
+
+.auth-card p {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.login-wrap a.logo-title {
+	color: #FE9723 !important;
+}
+
+.forgot-password {
+	color: #FE9723;
+	font-weight: 500;
+}
+
+a.forgot-password:hover {
+	color: #FD5602 !important;
+	font-weight: 500;
+}
+
+.field-user-password {
+	position: relative;
+}
+
+.field-loginform-password span,
+.field-user-password span,
+.field-user-confirm_password span {
+	position: absolute;
+	top: 43px;
+	right: 20px;
+}
+.primary-font{
+	color: #FE9723 !important;
+}
+
+.main_wrapper .alert {
+	position: absolute;
+	z-index: 1001;
+	width: 100%;
+	top: 0;
+}

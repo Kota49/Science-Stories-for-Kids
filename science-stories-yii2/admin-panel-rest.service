@@ -1,0 +1,20 @@
+#### Queue Guidelines
+#> Copy   admin-panel-rest.service  located at the root folder at path given below
+#> Path for queue file is "/etc/systemd/system/"
+
+[Unit]
+Description=ji Queue Worker %I
+After=network.target
+# the following two lines only apply if your queue backend is mysql
+# replace this with the service that powers your backend
+# After=mysql.service
+# Requires=mysql.service
+
+[Service]
+User=www-data
+Group=www-data
+ExecStart=/bin/bash /var/www/html/service-root.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

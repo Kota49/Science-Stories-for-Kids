@@ -1,0 +1,143 @@
+span.sharestyle {
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif;
+	padding: 5px 10px 5px 0;
+}
+
+.post-content-inner.text-justify img {
+	width: 100%;
+}
+
+.post-content-inner.text-justify ol {
+	padding: 0;
+	list-style-position: inside;
+	margin-bottom: 20px;
+}
+
+.post-content-inner.text-justify ol li {
+	margin: 10px 0;
+	font-size: 14px;
+}
+
+.post-content-inner.text-justify p {
+	line-height: 22px;
+}
+
+ul.list-wrapper.list-unstyled div li {
+	margin: 5px 0;
+	font-size: 15px;
+}
+
+.post-content-inner.text-justify p {
+	line-height: 22px;
+	font-size: 14px;
+}
+
+.post-content-inner.text-justify ul li {
+	position: relative;
+	list-style: none;
+	font-size: 15px;
+	margin-bottom: 13px;
+}
+
+.video-wrapper img {
+	width: 60%;
+	margin: 30px auto 50px;
+	display: block;
+}
+
+.video-wrapper {
+	margin-bottom: 40px;
+}
+
+.features-inner {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #e7e7e7;
+	margin-bottom: 26px;
+	min-height: 162px;
+	padding: 29px 12px 0;
+}
+
+.img-wrap {
+	border-right: 1px solid #ddd;
+	float: left;
+	padding-right: 8px;
+}
+
+.f-desc {
+	margin-left: 76px;
+}
+
+.f-desc h3 {
+	font-size: 20px;
+	margin-top: 0;
+	color: #78b83e;
+}
+
+.features-inner ul {
+	padding-left: 16px;
+	list-style-type: circle;
+}
+
+.features-inner ul li {
+	color: #666;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.main_wrapper {
+	background: #f3f3f3;
+	flex: 1 0 auto;
+}
+
+.panel.panel-primary {
+    border-color: #ececec;
+}
+.list-wrapper .items {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 11px;
+}
+.cx-blog-section .meta-info {
+	margin-bottom: 5px;
+	margin-top:5px;
+	padding-left: 0 !important;
+	float: left;
+	width: 100%;
+}
+.cx-blog-section .meta-info > li {
+	float: left;
+	margin-right: 25px;
+	color: #808080;
+	list-style: none !important;
+}
+.cx-blog-section .meta-info > li i {
+	font-size: 14px;
+	margin-right: 10px;
+}
+.meta-info .label {
+	padding: 3px 8px 3px 8px !important;
+	font-size: 13px !important;
+	line-height: inherit !important;
+	border-radius: 4px !important;
+	margin-top: 13px !important;
+}
+.cx-blog-section .label a {
+    color: #fff !important;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+}
+article.blog-post {
+    margin: 5px 0px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px 8px;
+}
+.nopull ul {
+    float: none !important;
+    text-align: center;
+}

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="RVTmr6hdkJpByOv7H8l0rZhffFkjpywRSkwmZjizNL4TZbnh6xLX7DevkohUi0L7wmcpA2v1VCMrChEBU_ZFyA==">
+    <title>Restaurant POS Software | Digital Menu for Restaurants</title>
+    <meta name="description" content="Digital Menu for SmartPhones &amp; Tablets ">
+<meta name="keywords" content="yii, framework, php">
+<meta name="author" content="@jiwebtech">
+<link href="/jimenu-pos-app-yii2-919/assets/e6d091/css/bootstrap.css" rel="stylesheet">
+<link href="/jimenu-pos-app-yii2-919/assets/ea593997/remote-help-style.css" rel="stylesheet">
+<script src="/jimenu-pos-app-yii2-919/assets/5a07b06f/jquery.js"></script>
+<script src="/jimenu-pos-app-yii2-919/assets/23abc78a/yii.js"></script>
+<script src="/jimenu-pos-app-yii2-919/assets/e6d091/js/bootstrap.js"></script>    <meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="shortcut icon"
+	href="/jimenu-pos-app-yii2-919/themes/base/img/favicon.ico" type="image/png">
+<!--common style-->
+<link
+	href="/jimenu-pos-app-yii2-919/themes/base/css/style-admin-voilet.css"
+	rel="stylesheet">
+
+
+<link
+	href="/jimenu-pos-app-yii2-919/themes/base/css/style-responsive.css"
+	rel="stylesheet">
+<!--theme color layout-->
+<link
+	href="/jimenu-pos-app-yii2-919/themes/base/css/layout-theme-two-voilet.css"
+	rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="sticky-header">
+
+    <section>
+		<!-- sidebar left start-->
+		<div class="sidebar-left">
+			<!--responsive view logo start-->
+			<div class="logo theme-logo-bg visible-xs-* visible-sm-* ">
+				<a href="/jimenu-pos-app-yii2-919/"> <span class="brand-name">jiMenu</span>
+				</a>
+			</div>
+			<!--responsive view logo end-->
+
+			<div class="sidebar-left-info">
+				<!-- visible small devices start-->
+				<div class=" search-field"></div>
+				<!-- visible small devices start-->
+
+				<!--sidebar nav start-->
+					<ul class="nav  nav-stacked side-navigation"><li><a href="/jimenu-pos-app-yii2-919/dashboard/index"><i
+							class="fa fa-home"></i> <span>Dashboard</span></a></li>
+<li class="menu-list"><a href="/jimenu-pos-app-yii2-919/seo/manager/#"><i
+							class="fa fa-users"></i> <span>Users</span></a>
+<ul class='child-list'>
+<li><a href="/jimenu-pos-app-yii2-919/user/restaurant"><i
+							class="fa fa-coffee"></i> <span>Restaurant</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/user/cashier"><i
+							class="fa fa-user"></i> <span>Cashier</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/user/employee"><i
+							class="fa fa-users"></i> <span>Employee</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/user/kitchen"><i
+							class="fa fa-cutlery"></i> <span>Kitchen</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/user/manager"><i
+							class="fa fa-user"></i> <span>Manager</span></a></li>
+</ul>
+</li>
+<li class="menu-list"><a href="/jimenu-pos-app-yii2-919/seo/manager/#"><i
+							class="fa fa-tasks"></i> <span>Manage</span></a>
+<ul class='child-list'>
+<li><a href="/jimenu-pos-app-yii2-919/language/index"><i
+							class="fa fa-language"></i> <span>Languages</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/file/index"><i
+							class="fa fa-picture-o"></i> <span>Media</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/log/index"><i
+							class="fa fa-sign-in"></i> <span>Logs</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/login-history/index"><i
+							class="fa fa-history"></i> <span>Login History</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/setting/index"><i
+							class="fa fa-file"></i> <span>Settings</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/page/index"><i
+							class="fa fa-file-text"></i> <span>Page</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/notification/notification/index"><i
+							class="fa fa-bell"></i> <span>Notification</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/shadow/session"><i
+							class="fa fa-sign-in"></i> <span>Shadows</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/comment"><i
+							class="fa fa-comments-o"></i> <span>Comments</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/backup"><i
+							class="fa fa-database"></i> <span>Backup</span></a></li>
+</ul>
+</li>
+<li class="menu-list"><a href="/jimenu-pos-app-yii2-919/seo/manager/#"><i
+							class="fa fa-tasks"></i> <span>Settings</span></a>
+<ul class='child-list'>
+<li><a href="/jimenu-pos-app-yii2-919/app-setting/index"><i
+							class="fa fa-tasks"></i> <span>App Settings</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/font-setting/index"><i
+							class="fa fa-gear"></i> <span>Font Settings</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/font-family"><i
+							class="fa fa-file-o"></i> <span>Font Families</span></a></li>
+</ul>
+</li>
+<li class="menu-list"><a href="/jimenu-pos-app-yii2-919/seo/manager/#"><i
+							class="fa fa-tasks"></i> <span>Menus</span></a>
+<ul class='child-list'>
+<li><a href="/jimenu-pos-app-yii2-919/menu/index"><i
+							class="fa fa-cutlery"></i> <span>Manage</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/category-menu/index"><i
+							class="fa fa-tasks"></i> <span>Menu Categories</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/menu-language/index"><i
+							class="fa fa-language"></i> <span>Languages</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/category-menu/draw"><i
+							class="fa fa-paint-brush"></i> <span>Draw Category</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/publish/index"><i
+							class="fa fa-file"></i> <span>Publishes</span></a></li>
+</ul>
+</li>
+<li class="menu-list"><a href="/jimenu-pos-app-yii2-919/seo/manager/#"><i
+							class="fa fa-cutlery"></i> <span>Food</span></a>
+<ul class='child-list'>
+<li><a href="/jimenu-pos-app-yii2-919/unit/index"><i
+							class="fa fa-tag"></i> <span>Unit</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/sauce/index"><i
+							class="fa fa-tags"></i> <span>Sauce</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/menu-item/index"><i
+							class="fa fa-cutlery"></i> <span>Menu Item</span></a></li>
+</ul>
+</li>
+<li class="menu-list"><a href="/jimenu-pos-app-yii2-919/seo/manager/#"><i
+							class="fa fa-file"></i> <span>Report</span></a>
+<ul class='child-list'>
+<li><a href="/jimenu-pos-app-yii2-919/order/report"><i
+							class="fa fa-line-chart"></i> <span>Graph</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/order/chart"><i
+							class="fa fa-bar-chart"></i> <span>Chart</span></a></li>
+</ul>
+</li>
+<li class="menu-list"><a href="/jimenu-pos-app-yii2-919/seo/manager/#"><i
+							class="fa fa-key "></i> <span>Blog</span></a>
+<ul class='child-list'>
+<li><a href="/jimenu-pos-app-yii2-919/blog/post"><i
+							class="fa fa-lock"></i> <span>Posts</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/blog/category"><i
+							class="fa fa-lock"></i> <span>Categories</span></a></li>
+</ul>
+</li>
+<li class="menu-list"><a href="/jimenu-pos-app-yii2-919/seo/manager/#"><i
+							class="fa fa-list-alt "></i> <span>Support</span></a>
+<ul class='child-list'>
+<li><a href="/jimenu-pos-app-yii2-919/support"><i
+							class="fa fa-home"></i> <span>Home</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/support/support-type"><i
+							class="fa fa-envelope-o"></i> <span>Support Type</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/support/faq"><i
+							class="fa fa-question"></i> <span>Faq</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/support/ticket"><i
+							class="fa fa-ticket"></i> <span>Tickets</span></a></li>
+</ul>
+</li>
+<li><a href="/jimenu-pos-app-yii2-919/seo/manager"><i
+							class="fa fa-file-o"></i> <span>Seo</span></a></li>
+<li class="menu-list"><a href="/jimenu-pos-app-yii2-919/seo/manager/#"><i
+							class="fa fa-key "></i> <span>Helps</span></a>
+<ul class='child-list'>
+<li><a href="/jimenu-pos-app-yii2-919/help"><i
+							class="fa fa-lock"></i> <span>Home</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/help/content"><i
+							class="fa fa-lock"></i> <span>Content</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/help/type"><i
+							class="fa fa-lock"></i> <span>Type</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/help/visitor"><i
+							class="fa fa-lock"></i> <span>Visitors</span></a></li>
+<li><a href="/jimenu-pos-app-yii2-919/help/request"><i
+							class="fa fa-lock"></i> <span>Request</span></a></li>
+</ul>
+</li></ul>			<!--sidebar nav end-->
+
+			</div>
+		</div>
+		<!-- sidebar left end-->
+
+		<!-- body content start-->
+		<div class="body-content">
+
+			<!-- header section start-->
+			<div class="header-section bg-danger light-color">
+
+				<!--logo and logo icon start-->
+				<div class="logo theme-logo-bg hidden-xs hidden-sm hidden-m">
+					<a href="/jimenu-pos-app-yii2-919/"> <!--<i class="fa fa-maxcdn"></i>--> <span class="brand-name">jiMenu</span>
+					</a>
+				</div>
+
+
+				<!--logo and logo icon end-->
+
+				<!--toggle button start-->
+				<a class="toggle-btn"><i class="fa fa-outdent"></i></a>
+				<!--toggle button end-->
+
+				<!--mega menu start-->
+
+				<!--mega menu end-->
+				<div class="notification-wrap">
+					<!--right notification start-->
+					<div class="right-notification">
+						<ul class="notification-menu">
+							<li><div id="selected_menu" class="text-center content_details">
+				
+					
+	<span id="selected_menu_title">  </span> <a
+										class="content hidden" data-type="ajax"
+										data-success-div="success" id="menu_deselect" href="#"> <span
+										class="label label-warning"><i class="fa fa-close"> </i>
+			De-Select Menu </span>
+									</a>
+
+
+								</div></li>
+							<li>
+															</li>
+
+
+							<!-- <div class="navbar-text">
+							  /* echo \lajax\languagepicker\widgets\LanguagePicker::widget ( [
+							 		'skin' => \lajax\languagepicker\widgets\LanguagePicker::SKIN_BUTTON,
+							 		'size' => \lajax\languagepicker\widgets\LanguagePicker::SIZE_LARGE
+
+							 ]);
+							 </div> -->
+							<li><a href="javascript:;"
+								class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+
+								<img id="profile_file" class="" src="/jimenu-pos-app-yii2-919/themes/base/img/default.png" width="50" height="50" alt="">								
+                                admin                                <span class=" fa fa-angle-down"></span>
+							</a>
+								<ul class="dropdown-menu dropdown-usermenu purple pull-right">
+									<li><a href="https://localhost/jimenu-pos-app-yii2-919/user/1"> <i
+											class="fa fa-user pull-right"></i> Profile
+									</a></li>
+									<li><a href="https://localhost/jimenu-pos-app-yii2-919/user/changepassword/1"> <span
+											class="fa fa-key pull-right"></span> <span>Change Password</span>
+									</a></li>
+									<li><a href="https://localhost/jimenu-pos-app-yii2-919/user/update/1"> <span
+											class="fa fa-pencil pull-right"></span> Update
+									</a></li>
+									<li><a
+										href="/jimenu-pos-app-yii2-919/user/logout"> <i class="fa fa-sign-out pull-right"></i> Log Out
+									</a></li>
+
+
+									<li><a href="javascript:;" id="modelButton"
+										data-url="/jimenu-pos-app-yii2-919/seo/site/info"> <i
+											class="fa fa-info pull-right"></i> About jiMenu    									</a></li>
+
+
+								</ul></li>
+
+
+						</ul>
+					</div>
+					<!--right notification end-->
+				</div>
+			</div>
+
+			<!-- header section end-->
+
+			<!-- page head start-->
+			 <ul class="breadcrumb"><li><a href="/jimenu-pos-app-yii2-919/">Home</a></li>
+<li><a href="/jimenu-pos-app-yii2-919/seo/manager/index">Seos</a></li>
+<li class="active">Hic id.</li>
+</ul>			<!--body wrapper start-->
+			<section class="main_wrapper">
+				
+				    
+    
+<div class="help-btn">
+  <a href="javascript:;" id="show-help">
+    <i class="fa fa-question-circle"></i> Help 
+   </a>
+  </div>
+
+
+<div class="wrapper  padding-bt-0" style="display: none"
+	id="parent-help">
+	<div class="panel m-b-0">
+		<header class=" panel-heading ">
+			<div id='help-content-widget'></div>
+		</header>
+	</div>
+</div>
+
+<script>
+$(document).ready(function(){
+	console.log(true);
+			showHelp();
+	});
+
+$(document).on("click","#show-help",function(e){
+	showHelp();
+});
+
+function showHelp()
+{
+	var url = 'https://jimenu.com/help/api/content?route=seo/manager/view&display=true';
+	  $("#help-content-widget").load(url,function(){
+		$("#parent-help").show();
+	});  
+}
+
+$(document).on("change","#cache-setup",function(e){
+	setCache();
+});
+
+function setCache()
+{
+	var isCheck = $("#cache-setup").is(":checked");
+
+	$.ajax({
+	   url: "https://localhost/jimenu-pos-app-yii2-919/help/api/change-display", 
+	   type: "POST",
+	   dataType:"JSON",
+	   data: { 
+		   data : isCheck,
+	   }, 
+	   success : function(response){
+			if(isCheck)
+				$("#parent-help").show();
+			else
+				$("#parent-help").hide();	
+		},
+		error: function(){
+			console.log('Somethings Went Wrong');
+		}
+	});
+}
+</script>
+			   <div class="alert alert-danger alert-dismissable fade in m-t-10">
+	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+								Your email is not verified yet. Kindly check your email <a href="/jimenu-pos-app-yii2-919/seo/user/resend-verification">Resend</a>							</div>
+			   			   
+               
+<div class="wrapper">
+	<div class=" panel ">
+
+		<div
+			class="seo-view panel-body">
+			
+
+<div class="page-head">
+	<h1>Managers</h1>
+           
+						<div class="state-information">
+		
+		       <div class="pull-right"> <a id="tool-btn-update" class="btn btn-warning" href="/jimenu-pos-app-yii2-919/seo/manager/update/9" title="Update"><span class="glyphicon glyphicon-pencil"></span></a></div>				
+		</div>
+			
+	</div>
+<!-- panel-menu -->
+
+
+
+
+
+
+		</div>
+	</div>
+
+	<div class=" panel ">
+		<div class=" panel-body ">
+    <table id="seo-detail-view" class="table table-bordered"><tr><th>ID</th><td  colspan = 1>9</td><th>Route</th><td  colspan = 1>Tempora.</td></tr>
+<tr><th>Title</th><td  colspan = 1>Hic id.</td><th>Keywords</th><td  colspan = 1></td></tr>
+<tr><th>Data</th><td  colspan = 1></td></tr></table>
+
+	</div>
+ </div>
+
+	</div>
+</div>			</section>
+			<footer>
+				<div class="text-center">
+					<p>
+					 &copy; 2018 jiMenu | All Rights Reserved </p>
+				</div>
+			</footer>
+			<!--footer section start-->
+			<!--footer section end-->
+			<!--body wrapper end-->
+		</div>
+
+	</section>
+
+<div id="model" class="fade modal" role="dialog" tabindex="-1">
+<div class="modal-dialog model-lg">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4>About jiMenu</h4><h6></h6>
+</div>
+<div class="modal-body">
+<div id='modelContent'></div>
+</div>
+
+</div>
+</div>
+</div><script type="text/javascript">
+$(function(){
+    $('#modelButton').click(function(){
+        $('.modal').modal('show')
+            .find('#modelContent')
+            .load($(this).attr('data-url'));
+    });
+});
+	
+$(document).ready(function(){
+	$(".child-list").find('span').contents().unwrap();
+});
+
+$(document).on("click" , "#menu_deselect" ,function(e){
+	e.preventDefault;
+	$.ajax({
+		url : "/jimenu-pos-app-yii2-919/seo/menu/de-select",
+		type : "GET",
+		dataType : "JSON",
+		success : function ( response ) {
+			console.log( response );
+			if ( response.status == 'OK' ){
+				if ($("i[id^='menu_']").hasClass('fa fa-check-square')){
+					$("i[id^='menu_']").removeClass("fa fa-check-square");
+					$("i[id^='menu_']").addClass('fa fa-check-square-o');
+				}
+				$("#menu_deselect").addClass("hidden");
+				$("#selected_menu_title").html("");
+			}
+		}
+	});
+});
+</script>
+	<script src="/jimenu-pos-app-yii2-919/themes/base/js/scripts.js"></script>
+	<script src="/jimenu-pos-app-yii2-919/themes/base/js/custom.js"></script>
+<script>jQuery(function ($) {
+jQuery('#model').modal({"show":false});
+});</script></body>
+</html>

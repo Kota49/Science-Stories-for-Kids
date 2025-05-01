@@ -1,0 +1,17 @@
+{
+    "name": "toxsltech/science-stories-yii2-1980",
+    "description": "api module",
+    "type": "library",
+	"license" : "commercial",
+    "authors": [
+        {
+            "name": "Shiv Charan Panjeta",
+            "email": "shiv@toxsltech.com"
+        }
+    ],
+    "require": {
+		"php" : ">=8.0.0",
+		"yiisoft/yii2" : "*",
+		"light/yii2-swagger": "3.0"
+	}
+}

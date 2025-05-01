@@ -1,0 +1,75 @@
+{
+	"name" : "toxsl/anyphoneanywhere-yii2-1992",
+	"description" : "Any Phone Anywhere",
+	"authors" : [{
+			"name" : "Shiv Charan Panjeta",
+			"email" : "shiv@toxsltech.com",
+			"homepage" : "http://www.toxsl.com"
+		}
+	],
+	"keywords" : [
+		"REST"
+	],
+	"homepage" : "http://toxsl.com/",
+	"type" : "project",
+	"license" : "commercial",
+	"minimum-stability" : "stable",
+        "prefer-stable": true,
+	"require" : {
+		"php" : ">=8.0.0",
+		"yiisoft/yii2" : "*",
+		"yiisoft/yii2-bootstrap5" : "*",
+		"yiisoft/yii2-jui" : "*",
+		"yiisoft/yii2-imagine" : "*",
+		"yiisoft/yii2-authclient" : "*",
+		"psr/log": "2.0.0",
+		"miloschuman/yii2-highcharts-widget" : "*",
+		"kartik-v/yii2-widget-rating" : "*",
+		"kartik-v/yii2-widget-fileinput" : "*",
+		"alexantr/yii2-elfinder" : "*",
+		"alexantr/yii2-ckeditor" : "*",
+		"kartik-v/yii2-export": "dev-master",
+		"kartik-v/yii2-bootstrap5-dropdown": "@dev",
+		"kartik-v/yii2-widget-timepicker" : "dev-master",
+        "wikimedia/composer-merge-plugin": "*",
+        "kartik-v/yii2-widget-depdrop": "@dev",
+        "lajax/yii2-language-picker": "1.*"
+	},
+	"require-dev" : {
+		"yiisoft/yii2-debug" : "*",
+		"yiisoft/yii2-gii" : "*",
+		"yiisoft/yii2-faker" : "*"
+	},
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://asset-packagist.org"
+		}
+	],
+	"scripts" : {
+		"inspect-url" : "vendor/bin/http-status-check scan"
+	},
+	"config": {
+		"optimize-autoloader": true,
+       	        "preferred-install": "dist",
+ 		"sort-packages": true,
+		"allow-plugins": {
+			"yiisoft/yii2-composer": true,
+                        "wikimedia/composer-merge-plugin": true
+		}
+	},
+	"extra": {
+		"merge-plugin": {
+			"include": [
+				"./protected/modules/*/composer.json"
+			],
+			"recurse": true,
+			"replace": false,
+			"ignore-duplicates": true,
+			"merge-dev": true,
+			"merge-extra": false,
+			"merge-extra-deep": false,
+			"merge-scripts": true
+		}
+	}
+
+}
